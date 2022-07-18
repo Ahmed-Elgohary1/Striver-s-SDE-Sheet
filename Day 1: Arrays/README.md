@@ -7,3 +7,5 @@
 3)[Next Permutation](https://leetcode.com/problems/next-permutation/)
 
 4)[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+
+5)[Sort 0 1 2](https://www.codingninjas.com/codestudio/problems/631055?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website)
