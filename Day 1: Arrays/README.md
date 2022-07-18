@@ -9,3 +9,5 @@
 4)[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
 5)[Sort 0 1 2](https://www.codingninjas.com/codestudio/problems/631055?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website)
+
+6)[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
