@@ -7,3 +7,5 @@
 4) [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 
 5) [Missing and repeating numbers ](https://www.codingninjas.com/codestudio/problems/873366?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website&leftPanelTab=0)
+
+6) [Count Inversions](https://www.codingninjas.com/codestudio/problems/615?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website)
