@@ -5,3 +5,5 @@
 3) [Pow(x, n)](https://leetcode.com/problems/powx-n/)
 
 4) [Majority Element](https://leetcode.com/problems/majority-element/)
+
+5) [Unique Paths](https://leetcode.com/problems/unique-paths/)
