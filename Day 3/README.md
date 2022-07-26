@@ -7,3 +7,5 @@
 4) [Majority Element](https://leetcode.com/problems/majority-element/)
 
 5) [Unique Paths](https://leetcode.com/problems/unique-paths/)
+
+6) [Majority Element II](https://leetcode.com/problems/majority-element-ii/)
