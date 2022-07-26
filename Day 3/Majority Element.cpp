@@ -21,3 +21,28 @@ public:
         return -1;
     }
 };
+
+
+/*******  Other solution using Moore's Voting Algorithim*******/
+
+
+class Solution {
+public:
+    int majorityElement(vector<int>& nums)
+    {
+   int count=0,cnt=0;
+        for(auto num:nums)
+        {
+            if(count==0)
+                cnt=num;
+            
+            if(cnt==num)
+              count++;
+            else
+                count--;
+        }
+    
+            return cnt;
+        
+    }
+};
