@@ -9,3 +9,5 @@
 5) [Unique Paths](https://leetcode.com/problems/unique-paths/)
 
 6) [Majority Element II](https://leetcode.com/problems/majority-element-ii/)
+
+7) [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) -merge sort-
