@@ -1,58 +1,54 @@
-#include<bits/stdc++.h>
-using namespace std;
-
-int merge(int arr[],int temp[],int left,int mid,int right)
+#include <bits/stdc++.h> 
+#define ll long long 
+ll merge(ll *arr,ll left,ll mid,ll right,ll *temp)
 {
-    int inv_count=0;
-    int i = left;
-    int j = mid;
-    int k = left;
-    while((i <= mid-1) && (j <= right)){
-        if(arr[i] <= arr[j]){
-            temp[k++] = arr[i++];
-        }
-        else
-        {
-            temp[k++] = arr[j++];
-            inv_count = inv_count + (mid - i);
-        }
-    }
-
-    while(i <= mid - 1)
+  ll count=0,i=left,j=mid+1,k=left;  
+    
+   while(i<=mid &&j<=right)
+   {
+       if(arr[i]<=arr[j])
+       {
+           temp[k]=arr[i];
+           k++; i++;
+       }
+       else
+       {
+           temp[k]=arr[j];
+           if(arr[i]>arr[j])
+             count=count+(mid-i+1);
+           k++;j++;
+           
+       }
+   }
+    
+    while(i <= mid )
         temp[k++] = arr[i++];
 
-    while(j <= right)
+    while(j <=right)
         temp[k++] = arr[j++];
 
     for(i = left ; i <= right ; i++)
         arr[i] = temp[i];
     
-    return inv_count;
+    return count;
+    
 }
 
-int merge_Sort(int arr[],int temp[],int left,int right)
+ll merge_sort(long long *arr,ll left,ll right,ll *temp)
 {
-    int mid,inv_count = 0;
-    if(right > left)
+    ll count=0;
+    if(right>left)
     {
-        mid = (left + right)/2;
-
-        inv_count += merge_Sort(arr,temp,left,mid);
-        inv_count += merge_Sort(arr,temp,mid+1,right);
-
-        inv_count += merge(arr,temp,left,mid+1,right);
+        int mid=(left+right)/2;
+        count+=merge_sort(arr,left,mid,temp);
+        count+=merge_sort(arr,mid+1,right,temp);
+        count+=merge(arr,left,mid,right,temp);
     }
-    return inv_count;
+   return count; 
 }
 
-int main()
+long long getInversions(long long *arr, int n)
 {
-    int arr[]={5,3,2,1,4};
-    int n=5;
-    int temp[n];
-    int ans = merge_Sort(arr,temp,0,n-1);
-    cout<<"The total inversions are "<<ans<<endl; 
-
-
-    return 0;
-}
+    ll temp[n];
+return merge_sort(arr,0,n-1,temp);
+ }
