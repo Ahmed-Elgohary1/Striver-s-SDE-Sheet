@@ -5,3 +5,5 @@
 3) [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 
 4) [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) -Brute force-
+
+5) [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) -[Two pointer](https://takeuforward.org/data-structure/what-is-two-pointer-approach/)-
