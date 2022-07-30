@@ -8,4 +8,4 @@
 
 5) [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) -[Two pointer](https://takeuforward.org/data-structure/what-is-two-pointer-approach/)-
 
-6)[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+6) [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
