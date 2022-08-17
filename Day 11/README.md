@@ -2,3 +2,4 @@
 2) [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 3) [Same Tree](https://leetcode.com/problems/same-tree/)
 4) [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+5) [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
