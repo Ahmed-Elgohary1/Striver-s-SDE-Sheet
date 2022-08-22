@@ -4,20 +4,25 @@ public:
     {
     sort(intervals.begin(), intervals.end());
   vector < vector < int >> merged;
-
-  for (int i = 0; i < intervals.size(); i++) {
-    if (merged.empty() || merged.back()[1] < intervals[i][0]) {
-      vector < int > v = {
-        intervals[i][0],
-        intervals[i][1]
-      };
-
-      merged.push_back(v);
-    } else {
-      merged.back()[1] = max(merged.back()[1], intervals[i][1]);
-    }
+vector<int>v;
+        
+   int n=intervals.size(), start=intervals[0][0],end=intervals[0][1],flag=0;     
+        
+        
+        
+  for (int i = 0; i < n; i++) 
+  {
+      if(end<intervals[i][0])
+      {
+          merged.push_back({start,end});
+          start=intervals[i][0];
+      }
+               end=max(end,intervals[i][1]);
   }
-
+        
+        if(merged.empty()|| merged.back()[1]!=intervals[n-1][1])
+            merged.push_back({start,end});
+        
   return merged;    
     }
 };
