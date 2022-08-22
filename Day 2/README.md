@@ -10,3 +10,4 @@
 
 6) [Count Inversions](https://www.codingninjas.com/codestudio/problems/615?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website)
 7) [Insert Interval](https://leetcode.com/problems/insert-interval/)
+8) [Rotate Array](https://leetcode.com/problems/rotate-array/)
