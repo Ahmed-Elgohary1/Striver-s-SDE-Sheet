@@ -11,3 +11,4 @@
 6) [Majority Element II](https://leetcode.com/problems/majority-element-ii/)
 
 7) [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) -merge sort-
+8) [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
