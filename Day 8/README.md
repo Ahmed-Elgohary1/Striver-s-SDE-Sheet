@@ -9,3 +9,4 @@
 5) [Find Minimum Number Of Coins](https://www.codingninjas.com/codestudio/problems/975277?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website&leftPanelTab=0)
 
 6) [Maximum activities](https://www.codingninjas.com/codestudio/problems/1062712?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website&leftPanelTab=0)
+7) [Partition Labels](https://leetcode.com/problems/partition-labels/)
