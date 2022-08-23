@@ -12,3 +12,4 @@
 
 7) [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) -merge sort-
 8) [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
+9) [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
