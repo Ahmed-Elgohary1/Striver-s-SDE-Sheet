@@ -10,3 +10,4 @@
 
 6) [Maximum activities](https://www.codingninjas.com/codestudio/problems/1062712?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website&leftPanelTab=0)
 7) [Partition Labels](https://leetcode.com/problems/partition-labels/)
+8) [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
