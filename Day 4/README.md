@@ -2,3 +2,4 @@
 2) [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 3) [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)
 4) [Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/)
+5) [Find Three Consecutive Integers That Sum to a Given Numbe](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number/)
