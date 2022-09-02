@@ -5,3 +5,4 @@
 5) [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
 6) [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
 7) [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+8) [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)
