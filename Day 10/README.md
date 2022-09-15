@@ -12,3 +12,4 @@
 9) [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)
 10) [Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)
 11) [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) 💥
+12) [Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)
