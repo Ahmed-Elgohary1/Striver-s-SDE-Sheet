@@ -2,3 +2,4 @@
 2) [Longest Nice Subarray](https://leetcode.com/problems/longest-nice-subarray/)
 3) [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
 4) [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)
+5) [Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)
