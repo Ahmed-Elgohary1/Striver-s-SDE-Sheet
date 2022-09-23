@@ -7,3 +7,4 @@
 7) [Word Break](https://leetcode.com/problems/word-break/)
 8) [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) ✨ *KMP* ✨
 9) [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)
+10) [Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/)
