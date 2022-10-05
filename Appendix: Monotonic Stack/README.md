@@ -3,3 +3,4 @@
 3) [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
 4) [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)
 5) [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/description/)
+6) [Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence/description/)
