@@ -3,3 +3,4 @@
 3) [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
 4) [Triangle](https://leetcode.com/problems/triangle/)
 5) [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)
+6) [Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/description/)
