@@ -1,0 +1,41 @@
+class Solution {
+public:
+
+    int residual=0,dummy=0;
+
+    void dfs(int node,vector<vector<int>>&graph, vector<bool>& hasApple,vector<bool>&visit)
+    {
+
+        visit[node]=true; 
+
+        dummy++;
+        if(hasApple[node])
+         residual=dummy;
+
+        for(int next:graph[node])
+        {
+            if(!visit[next])
+            {
+            dfs(next,graph,hasApple,visit);
+            dummy=max(dummy-1,residual);
+            }
+        }
+
+
+    }
+
+    int minTime(int n, vector<vector<int>>& edges, vector<bool>& hasApple) {
+       vector<vector<int>>graph(n);
+       vector<bool>visit(n);
+
+        for(vector<int>v:edges)
+        {
+            int from=v[0],to=v[1];
+            graph[from].push_back(to);
+            graph[to].push_back(from);
+        }
+        dfs(0,graph,hasApple,visit);
+
+        return max(0, 2*(residual-1));
+    }
+};
